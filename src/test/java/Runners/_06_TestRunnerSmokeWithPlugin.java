@@ -6,8 +6,10 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         tags = "@SmokeTest", //smoketest etiketli featurelar çalışır
         features = {"src/test/java/FeatureFiles"},
-        glue = {"StepDefinitions"}
+        glue = {"StepDefinitions"},
+        plugin = {"html:target/site/cucumber-pretty.html"} //basit seviye rapor üretir
+
 )
 
-public class _04_TestRunnerSmoke extends AbstractTestNGCucumberTests {
+public class _06_TestRunnerSmokeWithPlugin extends AbstractTestNGCucumberTests {
 }

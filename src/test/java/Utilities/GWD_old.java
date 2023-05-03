@@ -4,14 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 
 import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class GWD {
+public class GWD_old {
     public static WebDriver driver;
 
 

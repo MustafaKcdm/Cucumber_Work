@@ -27,7 +27,7 @@ Feature: DataTable Function
 
       Then Success message should be displayed
 
-
+  @Regression
       Scenario: Create Nationality
 
         And Click to the element in LeftNav
@@ -51,6 +51,7 @@ Feature: DataTable Function
 
         Then Success message should be displayed
 
+  @Regression
         Scenario: Creating new fee
 
           And Click to the element in LeftNav
@@ -61,21 +62,17 @@ Feature: DataTable Function
             |plus|
 
           And User sending the keys in the Dialog Content
-            |nameInput| trycdmz2|
-            |codeInput| 232022|
-            |priortyInput| 13202 |
+            |nameInput| trycmz2|
+            |codeInput| 23222|
+            |priortyInput| 1322 |
 
           And Click to the element in Dialog
-            |activeDialogBtn|
-
-
-
-          And Click to the element in Dialog
+            |saveButton|
             |saveButton|
 
           Then Success message should be displayed
           And User delete item named from Dialog Content
-            |trycdmz2|
+            |trycmz2|
 
           Then Success message should be displayed
 
