@@ -107,7 +107,7 @@
                     <!--                    </suiteXmlFiles>-->
 
                     <includes>
-                        <!-- for  run class or classes  **/:bulunduğu lokasyonu bütün klasörlere göre bulabiliyor   -->
+                        <!-- for  run class or classes    **/:bulunduğu lokasyonu bütün klasörlere göre bulabiliyor   -->
                         <include>**/_04_TestRunnerSmoke.java</include>
                     </includes>
 
